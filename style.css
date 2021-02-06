@@ -40,10 +40,7 @@ html {
 
 /* Header */
 header {
-   background-color: #02160b;
-   position: fixed;
-   top: 0;
-   left: 0;
+   position: absolute;
    width: 100%;
 }
 #wrapper{
@@ -56,8 +53,8 @@ header {
    display: flex;
    flex-wrap: wrap;
    color: #f7f7f7;
-   align-items: flex-end;
    justify-content: space-between;
+   margin-top: 19px;
 }
 #header_wrapper #logo {
    display: flex;
@@ -68,36 +65,117 @@ header {
 #header_wrapper #logo p {
    font-family: 'Roboto';
    font-size: 32px;
+   margin: 0 15px 0 18px;
 }
 #header_nav {
-   
+   display: flex;
+   align-items: center;
 }
 #header_list {
 display: flex;
 flex-wrap: wrap;
 list-style-type: none;
+align-items: center;
+font-family: 'Open Sans';
+font-size: 23px;
 }
 #header_list li {
+   padding: 5px 1px;
    margin-right: 60px;
-   font-size: 23px;
 }
-#header_list li a {
-   font-family: 'Open Sans';
-   color: wheat;
+#header_list li:last-child{
+   margin-right: 0;
 }
-#header_list li button {
+
+.list a {
+   color: #f7f7f7;
+}
+.list {
+   border: 0px solid inherit;
+   border-radius: 5px;
+}
+
+.list:hover{
+   background: #E39128;
+   transition: all 0.1s ease-in;
+}
+.icon{
+   display: flex;
    cursor: pointer;
-   color: wheat;
-   font-family: 'Open Sans';
+   background-color: inherit;
+   font-size: 23px;
+   border:none;
+   display: flex;
+   justify-content: center;
+   padding: 4px;
+}
+.icon:hover {
+   border-radius: 5px;
+   background: #E39128;
+   transition: all 0.1s ease-in;
+}
+.sign {
+   cursor: pointer;
+   color: #f7f7f7;
    border: 1px solid #cd6326;
    border-radius: 5px;
    background-color: inherit;
    width: 120px;
    height: 50px;
-   font-family: 'Open Sans';
    font-size: 23px;
 }
-#header_list li button:hover{
-   background: rgba(255, 255, 255, 0.1);
-  transition: all 0.5s ease-in;
+.sign:hover{
+   background: #E39128;
+   transition: all 0.1s ease-in;
+}
+
+/* Survival */
+
+#survival {
+   height: 100vh;
+   background: url(/img/Rectangle.png) no-repeat;
+   background-size: cover;
+   padding-top: 199px;
+   
+}
+#wrapper_main {
+   margin:0 120px;
+   width: 1200px;
+}
+#title_survival {
+   font-family: 'Open Sans';
+   font-weight: normal;
+   font-size: 48px;
+   line-height: 72px;
+   color: #CD6326;
+}
+#text_survival {
+   margin-top: 51px;
+   width: 274px;
+   height: 108px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 27px;
+   color: #F7F7F7;
+}
+.donate {
+   border: none;
+   width: 160px;
+   height: 60px;
+   border-radius: 5px;
+   background: #CD6326;
+   margin-top: 49px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 23px;
+   line-height: 27px;
+   text-align: center;
+   color: #F7F7F7;
+}
+.donate:hover {
+   cursor: pointer;
+   background-color:#E39128;
 }
