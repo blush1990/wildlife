@@ -40,6 +40,7 @@ html {
 
 /* Header */
 header {
+   background-color: #02160b;
    width: 100%;
    position: absolute;
 }
@@ -313,6 +314,7 @@ article {
 }
 /* Footer */
 footer {
+   background-color: #181617;
    width: 1440px;
    height: 360px;
    background: url(/img/footer.jpg) no-repeat;
