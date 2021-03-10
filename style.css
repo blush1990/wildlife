@@ -301,10 +301,10 @@ article {
    display: flex;
    align-items: center;
    width: 540px;
-   height: 60px;
+   height: 61px;
    padding-left: 15px;
    border-right: 0px;
-   margin-bottom: 240px;
+   margin-bottom: 241px;
 }
 #send_button:hover{
    background: #E39128;
@@ -332,8 +332,10 @@ footer {
 
 #navigation_list {
    list-style-type: none;
-   display: flex;
    margin-top: 152px;
+}
+#navigation_list li {
+  display: inline;
 }
 
 #navigation_list li a {
@@ -352,10 +354,10 @@ footer {
    color:grey;
 }
 .articl_img {
-   margin-right: 85px;
+   margin-right: 84px;
 }
 .about_img {
-   margin-right: 86px;
+   margin-right: 85px;
 }
 
 
