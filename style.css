@@ -307,6 +307,7 @@ article {
    margin-bottom: 241px;
 }
 #send_button:hover{
+   cursor: pointer;
    background: #E39128;
    transition: all 0.1s ease-in;
    border: 1px solid #E39128;
