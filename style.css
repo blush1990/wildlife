@@ -61,7 +61,7 @@ header {
    flex-wrap: wrap;
    align-items: center;
 }
-.logo p {
+.logo h1 {
    font-family: 'Roboto';
    font-style: normal;
    font-weight: normal;
