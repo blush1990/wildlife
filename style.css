@@ -333,6 +333,17 @@ footer {
    margin-top: 150px;
 
 }
+#wrapper_footer .logo p {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 32px;
+   line-height: 60px;
+   text-transform: uppercase;
+   color: #F7F7F7;
+   margin-left: 15px;
+   width: 155px;
+}
 
 #navigation_list {
    list-style-type: none;
